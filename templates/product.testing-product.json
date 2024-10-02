@@ -1,0 +1,111 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "fa376372-838d-4a96-8673-281224f859f7": {
+          "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "use_metafields": false,
+            "sku_tagtype": "sku",
+            "is_featured_product": false,
+            "featured_product_handle": ""
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": false
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": true,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        }
+      },
+      "block_order": [
+        "fa376372-838d-4a96-8673-281224f859f7",
+        "title",
+        "price",
+        "vendor",
+        "divider",
+        "description"
+      ],
+      "settings": {
+        "show_breadcrumbs": false,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": false,
+        "enable_sticky_columns": false,
+        "gallery_size": "large",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "enable_video_looping": false
+      }
+    },
+    "1678496112b3881e5a": {
+      "type": "apps",
+      "blocks": {
+        "5dae358d-0eec-49f9-bd73-aa34539da5d6": {
+          "type": "shopify://apps/stamped-reviews/blocks/main-widget/a103faaf-2125-4b0e-89fa-de5149736723",
+          "settings": {
+            "animation": true,
+            "tags_exclude": "",
+            "tags_include": "",
+            "search": "",
+            "linkify": true,
+            "use_metafields": false,
+            "sku_tagtype": "sku"
+          }
+        }
+      },
+      "block_order": [
+        "5dae358d-0eec-49f9-bd73-aa34539da5d6"
+      ],
+      "settings": {
+        "full_width": false
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "1678496112b3881e5a"
+  ]
+}

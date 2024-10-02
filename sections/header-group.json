@@ -1,0 +1,83 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
+            "bg_color": "#202020",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement-2": {
+          "type": "announcement",
+          "settings": {
+            "text": "Announce <a href=\"#\">something</a> here",
+            "bg_color": "#f4f6f8",
+            "text_color": "#4c4c4b"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-1",
+        "announcement-2"
+      ],
+      "settings": {
+        "show_social_icons": true
+      }
+    },
+    "header": {
+      "type": "header",
+      "settings": {
+        "logo": "shopify://shop_images/binhoBlackLogoNoSpace.png",
+        "logo_img_width_int": 110,
+        "mobile_logo_img_width_int": 130,
+        "logo_h1": true,
+        "enable_sticky": true,
+        "enable_transparent": false,
+        "transparent_color": "#ffffff",
+        "menu_linklist": "main-menu",
+        "menu_layout": "underneath",
+        "nav_featured_link": "Sale",
+        "menu_linklist_mobile": "",
+        "enable_mobile_promo_carousel": true,
+        "enable_nav_mob_products": false,
+        "nav_mob_products_title": "Best Sellers",
+        "nav_mob_products_collection": "",
+        "enable_search": true,
+        "icon_strategy": "icons_all",
+        "cart_icon": "bag"
+      }
+    },
+    "store-messages": {
+      "type": "store-messages",
+      "settings": {
+        "head_not_home_only": false,
+        "head_not_col_bg": "#f4f6f8",
+        "head_not_col_txt1": "#171717",
+        "head_not_col_txt2": "#4c4c4b",
+        "head_not_mob_show": false,
+        "head_not_mob_text": "Add important information here",
+        "head_not_mob_url": ""
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header",
+    "store-messages"
+  ]
+}

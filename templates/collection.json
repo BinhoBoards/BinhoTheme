@@ -1,0 +1,36 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 28,
+        "grid": 3,
+        "show_vendor": false,
+        "show_total": true,
+        "enable_filtering": false,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "enable_sticky_filter": true,
+        "image_position": "center center"
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
