@@ -33,6 +33,15 @@
             "enable_product_reviews_by_price": false
           }
         },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
         "vendor": {
           "type": "vendor",
           "disabled": true,
@@ -42,6 +51,25 @@
         "divider": {
           "type": "divider",
           "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker_nqgqgH": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "custom_liquid_37MkUR": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<style>\ninput[name=\"properties[Line Color]\"], input[name=\"properties[Custom Turf Color]\"] {\n\twidth: 40px;\n}\n.progress-wrapper {\n    width:200px;\n\tborder:1px solid #e2e2e2;\n    border-radius: 2px;\n\tpadding: 2px;\n}\n.progress-wrapper .progress {\n    background-color:#f7b613;\n    width:0%;\n    padding:2px 5px 2px 5px\n\tcolor: #000;\n\toverflow: hidden;\n}\n</style>\n\n<div class=\"pd-form__input\">\n\t<label class=\"pd-form__label\">Logo Image</label>\n\n\t<input id=\"file-upload\" type=\"file\" form=\"{{ 'product-form-' | append: section.id }}\" name=\"properties[File Upload]\" accept=\"image/png, image/jpeg\" required>\n\n\t<div class=\"progress-wrapper\" id=\"logo-progress\" style=\"display:none;\">\n        <div id=\"progress-bar-file\" class=\"progress\"></div>\n    </div>\n</div>\n\n<div class=\"pd-form__input\" id=\"logo-scale\" style=\"display:none;\">\n\t<label class=\"pd-form__label\">Logo Size</label>\n\n\t<input type=\"range\" min=\"0.5\" max=\"1.5\" value=\"1\" step=\"0.01\" id=\"scaleSlider\">\n</div>\n\n{% assign product_handles = \"binho-bands,binho-player-pieces,binho-goals-1\" | split: ',' %}\n{% for handle in product_handles %}\n  {% assign product = all_products[handle] %}\n  {% if product %}\n    <div class=\"product-metafields\" data-title=\"{{ product.title }}\" data-product-id=\"{{ product.id }}\" style=\"display:none\">\n      {% for variant in product.variants %}\n        <div class=\"variant-metafields\" data-variant-id=\"{{ variant.id }}\" data-title=\"{{ variant.title }}\" data-hexcolor=\"{{ variant.metafields.custom.hexcolor }}\" data-meta=\"{{ variant.metafields.custom.model_meta }}\" data-inventory=\"{{ variant.inventory_quantity }}\" data-available=\"{{ variant.available }}\" >\n        </div>\n      {% endfor %}\n    </div>\n  {% endif %}\n{% endfor %}\n<script src=\"https://binhoboard.com/apps/binho/assets/js/app.js?v1\" type=\"text/javascript\"></script>",
             "show_in_quickbuy": false
           }
         },
@@ -82,13 +110,50 @@
             "show_in_quickbuy": false
           }
         },
-        "description": {
-          "type": "description",
+        "custom_option_DYJHCJ": {
+          "type": "custom-option",
           "settings": {
-            "show_in_tab": false,
-            "open_tab": false,
-            "icon": "",
-            "show_in_quickbuy": false
+            "label": "Turf Style",
+            "type": "multiple",
+            "text_required": true,
+            "checkbox_checked_value": "Yes",
+            "checkbox_unchecked_value": "No",
+            "multiple_style": "dropdown",
+            "multiple_options": "Green\nBlack\nGreen Stripes\nStadium Stripes\nCircle Stripes\nCustom"
+          }
+        },
+        "custom_option_z7MmRg": {
+          "type": "custom-option",
+          "settings": {
+            "label": "Custom Turf Color",
+            "type": "text",
+            "text_required": false,
+            "checkbox_checked_value": "Yes",
+            "checkbox_unchecked_value": "No",
+            "multiple_style": "dropdown",
+            "multiple_options": ""
+          }
+        },
+        "custom_option_WRk33i": {
+          "type": "custom-option",
+          "settings": {
+            "label": "Line Color",
+            "type": "text",
+            "text_required": false,
+            "checkbox_checked_value": "Yes",
+            "checkbox_unchecked_value": "No",
+            "multiple_style": "dropdown",
+            "multiple_options": ""
+          }
+        },
+        "buy_buttons_VWFw6z": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": false,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
           }
         }
       },
@@ -96,22 +161,47 @@
         "title",
         "fa376372-838d-4a96-8673-281224f859f7",
         "price",
+        "description",
         "vendor",
         "divider",
+        "variant_picker_nqgqgH",
+        "custom_liquid_37MkUR",
         "richtext_EGxNAn",
         "richtext_P8qKx8",
         "richtext_PYzbak",
-        "description"
+        "custom_option_DYJHCJ",
+        "custom_option_z7MmRg",
+        "custom_option_WRk33i",
+        "buy_buttons_VWFw6z"
       ],
       "settings": {
         "show_breadcrumbs": true,
+        "select_first_variant": true,
         "show_location_underneath": false,
         "inventory_transfers_enable": false,
         "enable_sticky_columns": false,
+        "enable_sticky_atc": true,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
         "gallery_size": "small",
         "gallery_layout": "carousel-under",
         "enable_zoom": true,
-        "enable_video_looping": false
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
       }
     },
     "1678496112b3881e5a": {
@@ -134,12 +224,8 @@
         "5dae358d-0eec-49f9-bd73-aa34539da5d6"
       ],
       "settings": {
-        "full_width": false
-      }
-    },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
+        "full_width": false,
+        "show_space": true
       }
     }
   },
