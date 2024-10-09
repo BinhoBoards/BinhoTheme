@@ -471,7 +471,7 @@
     "coll_grid_image_position": "center center",
     "coll_grid_show_count": true,
     "favicon": "shopify://shop_images/binhofavnew2.png",
-    "cart_type": "drawer",
+    "cart_type": "page",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",

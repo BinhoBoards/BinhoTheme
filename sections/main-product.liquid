@@ -402,7 +402,7 @@
 
           {% when 'buy-buttons' %}
             <buy-buttons class="buy-buttons-row block" {{ block.shopify_attributes }}>
-              {% form 'product', product, id: product_form_id, class: 'form js-product-form', data-product-id: product.id %}
+              {% form 'product', product, id: product_form_id, class: 'form js-product-form product-purchase-form', data-product-id: product.id %}
                 <input type="hidden" name="id" value="{{ current_variant.id }}" disabled>
 
                 {% if product.available %}
