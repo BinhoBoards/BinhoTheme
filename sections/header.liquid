@@ -65,19 +65,7 @@
     <div class="logo-area container container--no-max">
       <div class="logo-area__left">
         <div class="logo-area__left__inner">
-          <button class="mobile-nav-toggle" aria-label="{{ 'general.navigation.menu' | t }}" aria-controls="main-nav">
-            {%- render 'icon-menu' -%}
-          </button>
-          {% if section.settings.enable_search %}
-            <a class="show-search-link" href="{{ routes.search_url }}" aria-label="{{ 'sections.header.search' | t }}">
-              <span class="show-search-link__icon">
-                {%- render 'icon-search' -%}
-              </span>
-              <span class="show-search-link__text{% if section.settings.icon_strategy == 'icons_only' %} visually-hidden{% endif %}">
-                {{- 'sections.header.search' | t -}}
-              </span>
-            </a>
-          {% endif %}
+
           {% if section.settings.menu_layout contains 'inline' %}
             <div id="proxy-nav" class="navigation navigation--left" role="navigation" aria-label="{{ 'accessibility.main_navigation' | t }}">
               <div class="navigation__tier-1-container">
