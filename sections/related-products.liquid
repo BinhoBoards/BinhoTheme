@@ -37,7 +37,9 @@
             endif
           -%}
           {%- for product in recommendations.products -%}
-            {% render 'product-block', product: product, custom_aspect_ratio: chosen_aspect_ratio %}
+            {% if product.id != 7995147550948 %}
+              {% render 'product-block', product: product, custom_aspect_ratio: chosen_aspect_ratio %}
+            {% endif %}
           {%- endfor -%}
         </div>
       </div>
