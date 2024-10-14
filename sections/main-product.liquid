@@ -40,7 +40,7 @@
   </div>
 {% endif %}
 
-<product-form class="js-product product-info quickbuy-content spaced-row container">
+<product-form class="js-product product-info quickbuy-content spaced-row container container--noMax">
   <media-gallery class="media-gallery media-gallery--layout-{{ section.settings.gallery_layout }} media-gallery-size-{{ section.settings.gallery_size }} product-column-left {% if product.media.size > 1 %}has-thumbnails{% endif %}"
     {%- if enable_media_grouping %}
       data-media-grouping-enabled
@@ -425,14 +425,6 @@
                   {% endif %}
 
                   <div class="quantity-submit-row input-row {% if enable_dynamic_payment_button %}has-spb{% endif %}">
-                    {% if block.settings.show_quantity_selector %}
-                      <label class="label" for="quantity">{{ 'products.product.quantity' | t }}</label>
-                      <quantity-wrapper class="quantity-wrapper">
-                        <a href="#" data-quantity="down" aria-label="{{ 'cart.items.decrease_quantity' | t }}">{% render 'icon-minus' %}</a>
-                        <input aria-label="{{ 'products.product.quantity' | t }}" id="quantity" type="number" name="quantity" value="1" />
-                        <a href="#" data-quantity="up" aria-label="{{ 'cart.items.increase_quantity' | t }}">{% render 'icon-plus' %}</a>
-                      </quantity-wrapper>
-                    {% endif %}
 
                     <div class="quantity-submit-row__submit input-row">
                       <div class="js-form-error lightly-spaced-row" role="alert" hidden></div>
@@ -444,6 +436,14 @@
                           {{- 'products.product.add_to_cart' | t -}}
                         {%- endif -%}
                       {%- endcapture -%}
+                      {% if block.settings.show_quantity_selector %}
+                      <label class="label" for="quantity">{{ 'products.product.quantity' | t }}</label>
+                      <quantity-wrapper class="quantity-wrapper">
+                        <a href="#" data-quantity="down" aria-label="{{ 'cart.items.decrease_quantity' | t }}">{% render 'icon-minus' %}</a>
+                        <input aria-label="{{ 'products.product.quantity' | t }}" id="quantity" type="number" name="quantity" value="1" />
+                        <a href="#" data-quantity="up" aria-label="{{ 'cart.items.increase_quantity' | t }}">{% render 'icon-plus' %}</a>
+                      </quantity-wrapper>
+                    {% endif %}
                       <button class="btn btn--large add-to-cart" type="submit" name="add" data-add-to-cart-text="{{ add_to_cart_text | escape }}"{% if product.available == false %} disabled{% endif %}>
                         {%- if current_variant.available or current_variant == false -%}
                           {{- add_to_cart_text -}}
