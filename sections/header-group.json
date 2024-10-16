@@ -68,7 +68,12 @@
         "search_recommendations_title": "",
         "search_recommendations_menu": "",
         "icon_strategy": "icons_only",
-        "cart_icon": "bag"
+        "cart_icon": "bag",
+        "flag_img_1": "shopify://shop_images/USA_Flag_1024x1024_b97d04e0-a65d-4b27-b007-dff73652ea4c.png",
+        "flag_img_2": "shopify://shop_images/EU_Flag_1024x1024_9efe499f-fae1-48d7-aabe-7fad2206408f.png",
+        "flag_url_2": "https://binhoboard.co.uk",
+        "flag_img_3": "shopify://shop_images/UK_Flag_1024x1024_ca6f6e98-d550-43eb-a6a9-477451a34ae3.png",
+        "flag_url_3": "https://binhoboard.eu"
       }
     },
     "store-messages": {

@@ -3371,6 +3371,124 @@ body:not(.reveal-mobile-nav) .mobile-navigation-drawer .mobile-navigation-drawer
   align-items: center;
 }
 
+/* Custom CSS Starts Here */
+.logo-area__right__inner .Flag_Icon {
+  display: flex;
+  align-items: center;
+}
+
+.logo-area__right__inner,
+.logo-area__right__inner .flag_dropdown,
+.logo-area__right__inner .default-flag{
+  height: 100%;
+}
+
+.logo-area__right__inner .default-flag:hover,
+.logo-area__right__inner .all-flags a:hover{
+  background-color: #f1f4f7;
+}
+
+.flag_dropdown{
+  position: relative;
+  cursor: pointer;
+
+}
+
+.default-flag{
+  width: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.default-flag img {
+  width: 36px;
+  height: 36px;
+  object-fit: contain;
+  background: transparent !important;
+}
+
+.all-flags img::selection,
+.flag_dropdown::selection,
+.default-flag img::selection{
+  background: transparent;
+}
+
+.default-flag img::selection{
+  background: transparent;
+}
+
+.all-flags {
+  position: absolute;
+  display: none;
+}
+
+
+
+@media (min-width: 768px) {
+    .all-flags a {
+    padding: 10px;
+    border: 1px solid #f1f4f7;
+    background: #Fff;
+    display: block;
+  }
+  .all-flags.active {
+  display: block;
+  margin-left: 5px;
+  }
+}
+
+.all-flags.active img {
+     height: 51px;
+}
+
+@media (max-width: 767.98px){
+  .default-flag {
+    padding-right: 10px;
+    width: 35px;
+    height: 51px;
+  }
+  .all-flags a {
+  border: 1px solid #f1f4f7;
+  background: #Fff;
+  display: block;
+  }
+  .all-flags.active {
+  display: block;
+  margin-left: -10px;
+  }
+}
+
+
+  .all-flags img {
+    height: 23px;
+    width: 40px;
+    object-fit: contain;
+  }
+  
+  .default-flag img {
+    height: 36px;
+  }
+  
+}
+
+.logo-area__right__inner .Flag_Icon .flag_dropdown {
+  margin: 0;
+}
+
+@media (max-width: 767.98px){
+  .logo-area__right__inner .Flag_Icon .flag_dropdown {
+  margin: 0;
+  width:35px;
+  }
+}
+
+.logo-area__right__inner .Flag_Icon .flag_dropdown {
+    border: none;
+  }
+
+/* Custom CSS Ends Here */
+
 .header-account-link {
   display: inline-flex;
   align-items: center;
@@ -3393,12 +3511,6 @@ body:not(.reveal-mobile-nav) .mobile-navigation-drawer .mobile-navigation-drawer
 .show-search-link {
   flex: 0 0 auto;
   white-space: nowrap;
-}
-
-@media (min-width: 768px) {
-	.logo-area__right .show-search-link {
-    		margin-inline-end: 20px;
-	}
 }
 
 .show-search-link__icon {

@@ -38,7 +38,9 @@
 
     {%- render 'doc-head-styles' -%}
   </style>
-
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
   {{ 'main.css' | asset_url | stylesheet_tag: preload: true }}
 
   {%- if settings.swatch_source == 'theme' and settings.swatch_value_list != blank -%}
@@ -237,5 +239,6 @@
       </added-notification>
     </template>
   {%- endif -%}
+  <script src="{{ 'flags.js' | asset_url }}" defer></script>
 </body>
 </html>

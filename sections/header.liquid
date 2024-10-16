@@ -156,6 +156,22 @@
               </span>
             </a>
           {% endif %}
+           <div class="Flag_Icon">
+            <div class="flag_dropdown">
+              <div class="default-flag">
+                <img src="{{ section.settings.flag_img_1 | img_url: 'original' }}" alt="usa-flag" class="loading" data-was-processed="true">
+              </div>
+              <div class="all-flags">
+                <a href="{{ section.settings.flag_url_2 }}" class="desktop-inside-flag">
+                  <img src="{{ section.settings.flag_img_2 | img_url: 'original' }}" alt="mx-flag" class="loading" data-was-processed="true">
+                </a>
+              
+                <a href="{{ section.settings.flag_url_3 }}" class="desktop-inside-flag">
+                  <img src="{{ section.settings.flag_img_3 | img_url: 'original' }}" alt="eu-flag" class="loading" data-was-processed="true">
+                </a>
+              </div>
+            </div>
+          </div>
           {%- liquid
             assign cart_hash = ''
             for item in cart.items
@@ -639,7 +655,48 @@
         }
       ],
       "default": "basket"
-    }
+    },
+     {
+        "type": "header",
+        "content": "Flag Details"
+      },
+      {
+        "type": "header",
+        "content": "Flag 1"
+      },
+      {
+        "type": "image_picker",
+        "id": "flag_img_1",
+        "label": "Flag Image"
+      },
+      {
+        "type": "header",
+        "content": "Flag 2"
+      },
+      {
+        "type": "image_picker",
+        "id": "flag_img_2",
+        "label": "Flag Image"
+      },
+      {
+        "type": "url",
+        "id": "flag_url_2",
+        "label": "Flag URL"
+      },
+      {
+        "type": "header",
+        "content": "Flag 3"
+      },
+      {
+        "type": "image_picker",
+        "id": "flag_img_3",
+        "label": "Flag Image"
+      },
+      {
+        "type": "url",
+        "id": "flag_url_3",
+        "label": "Flag URL"
+      }
   ],
   "blocks": [
     {
