@@ -45,15 +45,6 @@
             "show_in_quickbuy": false
           }
         },
-        "description": {
-          "type": "description",
-          "settings": {
-            "show_in_tab": false,
-            "open_tab": false,
-            "icon": "",
-            "show_in_quickbuy": false
-          }
-        },
         "buy_buttons_JbKjLz": {
           "type": "buy-buttons",
           "settings": {
@@ -63,6 +54,51 @@
             "show_pickup_availability": true,
             "show_gift_card_recipient": false
           }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "accordion_hkRABY": {
+          "type": "accordion",
+          "settings": {
+            "title": "{{ product.metafields.custom.first_tab_title.value }}",
+            "icon": "",
+            "content": "{{ product.metafields.custom.tab_description_1 | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "accordion_Arqf9x": {
+          "type": "accordion",
+          "settings": {
+            "title": "{{ product.metafields.custom.second_tab_title.value }}",
+            "icon": "",
+            "content": "{{ product.metafields.custom.tab_description_2 | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "accordion_adLXJ6": {
+          "type": "accordion",
+          "settings": {
+            "title": "{{ product.metafields.custom.third_tab_title.value }}",
+            "icon": "",
+            "content": "{{ product.metafields.custom.tab_description_3 | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
         }
       },
       "block_order": [
@@ -71,8 +107,14 @@
         "price",
         "vendor",
         "divider",
+        "buy_buttons_JbKjLz",
         "description",
-        "buy_buttons_JbKjLz"
+        "accordion_hkRABY",
+        "accordion_Arqf9x",
+        "accordion_adLXJ6"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "show_breadcrumbs": false,
@@ -98,6 +140,7 @@
     },
     "related-products": {
       "type": "related-products",
+      "disabled": true,
       "settings": {
         "title": "You may also like",
         "show_vendor": false,

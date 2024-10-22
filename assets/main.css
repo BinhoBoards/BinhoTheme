@@ -3487,6 +3487,44 @@ body:not(.reveal-mobile-nav) .mobile-navigation-drawer .mobile-navigation-drawer
     border: none;
   }
 
+@media (max-width: 767.98px){
+  .carousel.block.thumbnails {
+  display: none;
+ }
+}
+
+.price-container {
+  display: flex;
+  flex-direction: column;
+  /* margin-bottom: 15px; */
+}
+
+buy-buttons.buy-buttons-row.block {
+    margin-top: -30px;
+}
+
+div#simple-bundles-io-options {
+    margin-top: 30px;
+}
+
+@media (min-width: 768px) {
+  .product-info .product-column-right {
+    flex: 0 0 auto;
+    width: calc(50% - 44px);
+    /* max-width: 490px; */
+    margin-inline-start: 44px;
+  }
+}
+
+
+.product-form .quantity-submit-row .quantity-submit-row__submit {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: .625rem;
+}
+
+}
 /* Custom CSS Ends Here */
 
 .header-account-link {
@@ -3692,12 +3730,6 @@ body:not(.reveal-mobile-nav) .mobile-navigation-drawer .mobile-navigation-drawer
     flex: 0 0 auto;
     width: 50%;
   }
-  .product-info .product-column-right {
-    flex: 0 0 auto;
-    width: calc(50% - 44px);
-    /* max-width: 490px; */
-    margin-inline-start: 44px;
-  }
 }
 @media (min-width: 1040px) {
   .product-info .media-gallery-size-small {
@@ -3732,11 +3764,10 @@ body:not(.reveal-mobile-nav) .mobile-navigation-drawer .mobile-navigation-drawer
   line-height: 1.4em;
 }
 
-.price-container {
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 15px;
+hr.not-in-quickbuy {
+    margin: 0px;
 }
+
 @media (min-width: 768px) {
   .price-container {
     flex-direction: row;
@@ -3765,8 +3796,8 @@ shopify-payment-terms {
   margin-bottom: 0.25em;
 }
 .product-description {
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 .product-info .product-form .option-selectors {
@@ -3847,12 +3878,7 @@ shopify-payment-terms {
 .product-form .quantity-submit-row {
   margin-bottom: 0;
 }
-.product-form .quantity-submit-row .quantity-submit-row__submit {
-  margin-top: 40px;
-  margin-bottom: 20px;
-  display: flex;
-  gap: .625rem;
-}
+
 .product-form .quantity-submit-row .quantity-submit-row__submit button[type=submit] {
   box-sizing: border-box;
   width: 100%;

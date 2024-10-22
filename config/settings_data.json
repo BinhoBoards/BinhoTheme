@@ -440,6 +440,7 @@
     "button_shape": "sharp",
     "prod_thumb_shape": "square",
     "prod_thumb_crop": true,
+    "prod_thumb_crop_align": "center",
     "prod_thumb_text_align": "left",
     "prod_thumb_hover_image": true,
     "quickbuy_style": "off",
