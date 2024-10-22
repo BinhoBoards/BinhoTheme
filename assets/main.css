@@ -2733,9 +2733,6 @@ main-navigation {
     right: 0;
     left: auto;
   }
-  .navigation .navigation__item--with-small-menu > .navigation__tier-2-container .container {
-    padding: 22px 30px 22px 20px;
-  }
   .navigation .navigation__item--with-small-menu > .navigation__tier-2-container .navigation__tier-2 .navigation__item {
     display: block;
   }
@@ -3524,6 +3521,10 @@ div#simple-bundles-io-options {
     gap: .625rem;
 }
 
+@media (min-width:768px){
+    .navigation .navigation__item--with-small-menu > .navigation__tier-2-container .container {
+    padding: 10px 30px 10px 20px;
+  }
 }
 /* Custom CSS Ends Here */
 
