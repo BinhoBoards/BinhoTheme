@@ -2674,13 +2674,6 @@ main-navigation {
   .navigation .navigation__tier-1 > .navigation__item {
     display: inline-block;
   }
-  .navigation .navigation__tier-1 > .navigation__item > .navigation__link {
-    display: inline-block;
-    position: relative;
-    padding: 10px;
-    padding-top: 0px;
-    white-space: nowrap;
-  }
   .navigation .navigation__tier-1 > .navigation__item > .navigation__link::before {
     content: "";
     position: absolute;
@@ -3524,6 +3517,23 @@ div#simple-bundles-io-options {
 @media (min-width:768px){
     .navigation .navigation__item--with-small-menu > .navigation__tier-2-container .container {
     padding: 10px 30px 10px 20px;
+  }
+}
+
+@media (min-width:768px){
+
+    .navigation .navigation__tier-1 > .navigation__item > .navigation__link {
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    padding-top: 4px;
+    white-space: nowrap;
+  }
+}
+
+@media (min-width: 768px) {
+  .logo-area {
+    padding-top: 4px;
   }
 }
 /* Custom CSS Ends Here */
