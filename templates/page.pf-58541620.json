@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-58541620": {
+      "type": "pf-58541620",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-58541620"
   ]
 }

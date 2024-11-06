@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-03a1e2cb": {
+      "type": "pf-03a1e2cb",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-03a1e2cb"
   ]
 }

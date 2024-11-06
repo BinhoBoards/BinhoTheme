@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-e7001d2e": {
+      "type": "pf-e7001d2e",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-e7001d2e"
   ]
 }

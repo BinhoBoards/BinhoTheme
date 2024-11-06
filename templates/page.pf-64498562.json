@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-64498562": {
+      "type": "pf-64498562",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-64498562"
   ]
 }

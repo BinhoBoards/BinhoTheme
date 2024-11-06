@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-0e07545d": {
+      "type": "pf-0e07545d",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-0e07545d"
   ]
 }

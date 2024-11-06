@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-35b2b307": {
+      "type": "pf-35b2b307",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-35b2b307"
   ]
 }

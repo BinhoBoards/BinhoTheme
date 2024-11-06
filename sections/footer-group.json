@@ -16,6 +16,7 @@
       "blocks": {
         "1478526632862": {
           "type": "icon",
+          "disabled": true,
           "settings": {
             "icon": "truck",
             "text": "Free shipping",
@@ -54,6 +55,9 @@
         "1478527611164"
       ],
       "settings": {
+        "cross_page_promo_bg": "#ffffff",
+        "cross_page_promo_color": "#454564",
+        "show_on_home_page": true
       }
     },
     "footer": {
@@ -73,7 +77,8 @@
             "text": "",
             "image_width": 80,
             "show_social_icons": true,
-            "soc_icons_large": true
+            "soc_icons_large": true,
+            "enable_follow_on_shop": false
           }
         },
         "1601374580731": {
@@ -94,7 +99,10 @@
       ],
       "settings": {
         "lower_menu": "",
-        "show_payment_icons": true
+        "show_powered_by": true,
+        "show_payment_icons": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true
       }
     }
   },

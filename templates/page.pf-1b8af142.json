@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-1b8af142": {
+      "type": "pf-1b8af142",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-1b8af142"
   ]
 }

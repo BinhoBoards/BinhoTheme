@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-310eee63": {
+      "type": "pf-310eee63",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-310eee63"
   ]
 }

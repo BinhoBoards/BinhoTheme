@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-3ce11833": {
+      "type": "pf-3ce11833",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-3ce11833"
   ]
 }

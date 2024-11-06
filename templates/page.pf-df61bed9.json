@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-df61bed9": {
+      "type": "pf-df61bed9",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-df61bed9"
   ]
 }

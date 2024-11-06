@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-44cbb364": {
+      "type": "pf-44cbb364",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-44cbb364"
   ]
 }

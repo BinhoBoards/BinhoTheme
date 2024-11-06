@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-016372b3": {
+      "type": "pf-016372b3",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-016372b3"
   ]
 }

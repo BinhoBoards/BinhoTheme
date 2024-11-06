@@ -195,7 +195,7 @@
        'transaction_id': ''
      });
     </script>
-</head>
+{% include 'pagefly-app-header' %}</head>
 
 <body class="template-{{ template | split: '.' | first | handle }}
     {%- if template.suffix %} template-suffix-{{ template.suffix }}{% endif -%}

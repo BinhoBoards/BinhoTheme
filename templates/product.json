@@ -45,6 +45,18 @@
             "show_in_quickbuy": false
           }
         },
+        "variant_picker_Wy4ftQ": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
         "buy_buttons_JbKjLz": {
           "type": "buy-buttons",
           "settings": {
@@ -107,6 +119,7 @@
         "price",
         "vendor",
         "divider",
+        "variant_picker_Wy4ftQ",
         "buy_buttons_JbKjLz",
         "description",
         "accordion_hkRABY",

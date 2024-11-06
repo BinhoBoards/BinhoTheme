@@ -14,9 +14,14 @@
       "settings": {
         "full_width": false
       }
+    },
+    "pf-60833e09": {
+      "type": "pf-60833e09",
+      "settings": {}
     }
   },
   "order": [
-    "main"
+    "main",
+    "pf-60833e09"
   ]
 }

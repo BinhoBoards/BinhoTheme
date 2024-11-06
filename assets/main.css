@@ -3536,6 +3536,34 @@ div#simple-bundles-io-options {
     padding-top: 4px;
   }
 }
+
+.product-form .label {
+  margin-bottom: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4em;
+  display: block;
+}
+
+.quantity-submit-row__submit .label {
+  display: none;
+}
+
+.disclosure__content.rte h1,
+.disclosure__content.rte h2,
+.disclosure__content.rte h3,
+.disclosure__content.rte h4,
+.disclosure__content.rte h5,
+.disclosure__content.rte h6 {
+  margin: 1.5em 0 1em;
+  color: inherit;
+/*  font-family: inherit;
+  font-size: inherit;
+  font-weight: 600;
+
+*/
+}
+
 /* Custom CSS Ends Here */
 
 .header-account-link {
@@ -3827,14 +3855,6 @@ shopify-payment-terms {
 .buy-buttons-row {
   margin: 25px 0;
   clear: both;
-}
-
-.product-form .label {
-  display: none;
-  margin-bottom: 8px;
-  font-size: 1rem;
-  font-weight: 600;
-  line-height: 1.4em;
 }
 
 .product-form .option-selector__label-value {
@@ -4702,18 +4722,7 @@ shopify-payment-terms {
   padding-bottom: 20px;
   color: rgb(var(--text-color)/0.75);
 }
-.disclosure__content.rte h1,
-.disclosure__content.rte h2,
-.disclosure__content.rte h3,
-.disclosure__content.rte h4,
-.disclosure__content.rte h5,
-.disclosure__content.rte h6 {
-  margin: 1.5em 0 1em;
-  color: inherit;
-  font-family: inherit;
-  font-size: inherit;
-  font-weight: 600;
-}
+
 .disclosure__content.rte h1:first-child,
 .disclosure__content.rte h2:first-child,
 .disclosure__content.rte h3:first-child,

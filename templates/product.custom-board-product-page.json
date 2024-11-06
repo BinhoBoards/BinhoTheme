@@ -156,6 +156,18 @@
             "show_gift_card_recipient": false
           }
         },
+        "accordion_7MF6Q9": {
+          "type": "accordion",
+          "settings": {
+            "title": "{{ product.metafields.custom.fourth_tab_title.value }}",
+            "icon": "",
+            "content": "{{ product.metafields.custom.tab_description_4 | metafield_tag }}",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
         "accordion_VKGKFN": {
           "type": "accordion",
           "settings": {
@@ -209,6 +221,7 @@
         "custom_option_z7MmRg",
         "custom_option_WRk33i",
         "buy_buttons_VWFw6z",
+        "accordion_7MF6Q9",
         "accordion_VKGKFN",
         "accordion_Rwg6XX",
         "accordion_pCi3AC"
