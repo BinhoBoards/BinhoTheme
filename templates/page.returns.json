@@ -9,14 +9,225 @@
  */
 {
   "sections": {
-    "main": {
-      "type": "main-page",
+    "heading": {
+      "type": "image-with-text-overlay",
       "settings": {
-        "full_width": false
+        "image": "shopify://shop_images/banner_returns_exchanges_desktop.png",
+        "mobile_image": "shopify://shop_images/banner_returns_exchanges_mobile.png",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "custom_liquid_JzaMAb": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": true,
+        "show_space": true,
+        "code": "{% if template == 'page.returns' %}\n  <script>\n    document.addEventListener(\"DOMContentLoaded\", function() {\n      var searchInput = document.querySelector('.faq-search__input');\n      if (searchInput) {\n        searchInput.setAttribute('aria-label', 'Search Returns & Exchanges');\n        searchInput.setAttribute('placeholder', 'Search Returns & Exchanges');\n      }\n    });\n  </script>\n{% endif %}"
+      }
+    },
+    "main": {
+      "type": "faq-header",
+      "settings": {
+        "title": "Returns & Exchanges",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": true,
+        "index_heading": "How can we help?"
+      }
+    },
+    "faq-content-1": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Policy",
+            "answer": "<p><strong>Our policy lasts 14 days. If 14 days have gone by since your purchase, unfortunately we can’t offer you a refund or exchange.</strong></p>"
+          }
+        },
+        "question_dbfJze": {
+          "type": "question",
+          "settings": {
+            "title": "Eligibility",
+            "answer": "<p><strong>To be eligible for a return please download our </strong><a href=\"https://cdn.shopify.com/s/files/1/0064/9904/1362/files/Binho_Return_Exchange_Form.pdf?v=1687280334\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Return/Exchange Form </strong></span></a><strong>and include it with your return/exchange or it will not be processed.</strong></p>"
+          }
+        },
+        "question_drCDjK": {
+          "type": "question",
+          "settings": {
+            "title": "Process",
+            "answer": "<p><strong>To complete your return, we require a receipt or proof of purchase.</strong></p><p><strong>There are certain situations where only partial refunds are granted (if applicable). Any item not in its original condition, is damaged or missing parts for reasons not due to our error</strong></p>"
+          }
+        },
+        "question_xLiPK9": {
+          "type": "question",
+          "settings": {
+            "title": "Exchanges (if applicable)",
+            "answer": "<p><strong>We only replace items if they are defective or damaged. </strong></p><p><strong>If you need to exchange it for the same item, send us an email at hello@binhoboard.com and send your item to:</strong></p><p><strong> Binho Board, 2400 W. Southern Ave. Suite #107 Tempe, AZ 85282, United States.</strong></p>"
+          }
+        },
+        "question_36QLPN": {
+          "type": "question",
+          "settings": {
+            "title": "Shipping",
+            "answer": "<p><strong>To return your product, you should mail your product to: </strong></p><p><strong>Binho Board, 2400 W. Southern Ave. Suite #107 Tempe, AZ 85282, United States</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-2",
+        "question_dbfJze",
+        "question_drCDjK",
+        "question_xLiPK9",
+        "question_36QLPN"
+      ],
+      "settings": {
+        "title": "Returns"
+      }
+    },
+    "faq-content-2": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "Refunds (if applicable)",
+            "answer": "<p><strong>Once your return is received and inspected, we will send you an email to notify you that we have received your returned item. </strong></p><p><strong>We will also notify you of the approval or rejection of your refund.If you are approved, then your refund will be processed, and a credit will automatically be applied to your credit card or original method of payment, within a certain amount of days.</strong></p>"
+          }
+        },
+        "question_tTztCk": {
+          "type": "question",
+          "settings": {
+            "title": "Late or missing refunds (if applicable)",
+            "answer": "<p><strong>If you haven’t received a refund yet, first check your bank account again. </strong></p><p><strong>Then contact your credit card company, it may take some time before your refund is officially posted.</strong></p><p><strong>Next contact your bank. There is often some processing time before a refund is posted.</strong></p><p><strong>If you’ve done all of this and you still have not received your refund yet, please contact us at hello@binhoboard.com.</strong></p>"
+          }
+        },
+        "question_gLMD7H": {
+          "type": "question",
+          "settings": {
+            "title": "Sale items (if applicable)",
+            "answer": "<p><strong>Only regular priced items may be refunded, unfortunately sale items cannot be refunded.</strong></p>"
+          }
+        },
+        "question_gezNRY": {
+          "type": "question",
+          "settings": {
+            "title": "Exchanges (if applicable)",
+            "answer": "<p><strong>We only replace items if they are defective or damaged. </strong></p><p><strong>If you need to exchange it for the same item, send us an email at hello@binhoboard.com and send your item to:</strong></p><p><strong> Binho Board, 2400 W. Southern Ave. Suite #107 Tempe, AZ 85282, United States.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question-2",
+        "question_tTztCk",
+        "question_gLMD7H",
+        "question_gezNRY"
+      ],
+      "settings": {
+        "title": "Refunds"
+      }
+    },
+    "collapsible_tabs_LcmHJh": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_BbrJ7t": {
+          "type": "question",
+          "settings": {
+            "title": "Cancellations",
+            "answer": "<p><strong>Please note that we do not process any cancellations for any purchases. </strong></p><p><strong>Once an order is placed, it cannot be cancelled.</strong></p>"
+          }
+        }
+      },
+      "block_order": [
+        "question_BbrJ7t"
+      ],
+      "settings": {
+        "title": "Cancellations"
+      }
+    },
+    "rich_text_ciBmJr": {
+      "type": "rich-text",
+      "blocks": {
+        "text_TFa8Xf": {
+          "type": "text",
+          "settings": {
+            "text": "<h6><strong>You will be responsible for paying for your own shipping costs for returning your item. </strong></h6><h6><strong>Shipping costs are non-refundable. If you receive a refund, the cost of return shipping will be deducted from your refund.</strong></h6><h6><strong>Depending on where you live, the time it may take for your exchanged product to reach you, may vary.If you are shipping an item over $75, you should consider using a trackable shipping service or purchasing shipping insurance. </strong></h6><h6><strong>We don’t guarantee that we will receive your returned item.</strong></h6>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_TFa8Xf"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "contact": {
+      "type": "rich-text",
+      "blocks": {
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "Get in touch",
+            "use_h1": false
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Have questions about your order, or a general enquiry?</p>",
+            "enlarge_text": true
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "Contact us",
+            "button_link": "https://binho-boards.myshopify.com/pages/contact",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "icon",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
       }
     }
   },
   "order": [
-    "main"
+    "heading",
+    "custom_liquid_JzaMAb",
+    "main",
+    "faq-content-1",
+    "faq-content-2",
+    "collapsible_tabs_LcmHJh",
+    "rich_text_ciBmJr",
+    "contact"
   ]
 }
