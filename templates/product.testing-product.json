@@ -23,8 +23,7 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -36,8 +35,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "divider": {
           "type": "divider",
@@ -99,8 +97,7 @@
     },
     "related-products": {
       "type": "related-products",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

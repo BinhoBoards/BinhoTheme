@@ -12,12 +12,12 @@
     "4a0f9b63-d36f-4fa6-93a2-db52e1b443e0": {
       "type": "image-with-text-overlay",
       "settings": {
-        "image": "shopify://shop_images/BlackTurf_092724.jpg",
-        "mobile_image": "shopify://shop_images/BlackTurf_092724.jpg",
+        "image": "shopify://shop_images/LierpoolManCIty_Marquee.jpg",
+        "mobile_image": "shopify://shop_images/LierpoolManCIty_Marquee.jpg",
         "height": "adapt",
         "height_desktop": 380,
         "height_mobile": 300,
-        "image_link": "shopify://collections/boards",
+        "image_link": "https://binhoboard.com/collections/shop",
         "full_width": true,
         "text_alignment": "center center",
         "mobile_overlay_under": false,
@@ -36,6 +36,7 @@
             "slide_link": "shopify://products/binho-classic-ufo-edition",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 40,
             "use_h1": true,
@@ -55,6 +56,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 32,
             "use_h1": true,
@@ -75,6 +77,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 36,
             "use_h1": true,
@@ -94,6 +97,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 74,
             "title_size_mobile": 36,
             "use_h1": true,
@@ -114,6 +118,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 88,
             "title_size_mobile": 40,
             "use_h1": true,
@@ -133,6 +138,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 92,
             "title_size_mobile": 36,
             "use_h1": true,
@@ -153,6 +159,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 104,
             "title_size_mobile": 50,
             "use_h1": true,
@@ -171,6 +178,7 @@
             "slide_link": "",
             "subheading": "Tell your story",
             "title": "Two line\nslide heading",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 46,
             "use_h1": false,
@@ -202,8 +210,11 @@
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "full image-overlay--bg-shadow",
+        "transition": "fade",
+        "navigation": "arrows",
         "autoplay": true,
-        "autoplay_speed": 3
+        "autoplay_speed": 3,
+        "accessibility_info": ""
       }
     },
     "56241d1c-ca60-461e-ae4d-3b0ff8991c6a": {
@@ -215,6 +226,7 @@
         "enable_carousel": true,
         "grid": 3,
         "rows": 1,
+        "color_scheme": "default",
         "show_view_all": true,
         "full_width": true
       }
@@ -229,6 +241,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "BIGGER THAN A BOARD GAME",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 28,
             "use_h1": true,
@@ -248,6 +261,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "BIGGER THAN A BOARD GAME",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 28,
             "use_h1": true,
@@ -267,6 +281,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "BIGGER THAN A BOARD GAME",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 28,
             "use_h1": true,
@@ -286,6 +301,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "BIGGER THAN A BOARD GAME",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 28,
             "use_h1": true,
@@ -313,8 +329,11 @@
         "full_width": true,
         "mobile_overlay_under": false,
         "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
         "autoplay": true,
-        "autoplay_speed": 3
+        "autoplay_speed": 3,
+        "accessibility_info": ""
       }
     },
     "b9adf0db-5af9-40ee-b4f6-9286b531804e": {
@@ -383,7 +402,8 @@
       "settings": {
         "height": "small",
         "text_alignment": "center",
-        "full_width": true
+        "full_width": true,
+        "color_scheme": "default"
       }
     },
     "0b2c0d96-180a-43bf-96e8-7c9ac01a50ee": {
@@ -396,6 +416,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 60,
             "title_size_mobile": 32,
             "use_h1": false,
@@ -416,6 +437,7 @@
             "slide_link": "",
             "subheading": "",
             "title": "",
+            "heading_max_width": 15,
             "title_size": 84,
             "title_size_mobile": 26,
             "use_h1": false,
@@ -440,8 +462,11 @@
         "full_width": false,
         "mobile_overlay_under": false,
         "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
         "autoplay": true,
-        "autoplay_speed": 3
+        "autoplay_speed": 3,
+        "accessibility_info": ""
       }
     },
     "318ba0a8-b85f-4d58-863d-3cac6fbbb178": {
@@ -483,6 +508,7 @@
         "enable_carousel": true,
         "grid": 4,
         "rows": 3,
+        "color_scheme": "default",
         "show_view_all": true,
         "full_width": true
       }
@@ -538,7 +564,8 @@
       "settings": {
         "height": "small",
         "text_alignment": "center",
-        "full_width": false
+        "full_width": false,
+        "color_scheme": "default"
       }
     },
     "ef1c136d-e849-4b5b-86c4-e043d7304e1c": {
@@ -565,6 +592,7 @@
         "enable_carousel": true,
         "grid": 4,
         "rows": 1,
+        "color_scheme": "default",
         "show_view_all": true,
         "full_width": true
       }
@@ -594,7 +622,8 @@
       "settings": {
         "height": "small",
         "text_alignment": "center",
-        "full_width": false
+        "full_width": false,
+        "color_scheme": "default"
       }
     },
     "16359281184fd0d618": {
@@ -718,6 +747,7 @@
         "quote_text_size": 26,
         "quote_text_size_mobile": 20,
         "image_shape": "natural",
+        "color_scheme": "default",
         "autoplay": true,
         "autoplay_speed": 5
       }
@@ -747,7 +777,8 @@
       "settings": {
         "height": "medium",
         "text_alignment": "center",
-        "full_width": false
+        "full_width": false,
+        "color_scheme": "default"
       }
     },
     "163592857728b8bdc2": {
@@ -756,6 +787,7 @@
         "163592857728b8bdc2-0": {
           "type": "text_block",
           "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/settingup.jpg",
             "title": "Assembling your board",
             "text": "<p>Step-by-step on how to set up your Biñho Classic.</p>",
@@ -766,6 +798,7 @@
         "163592857728b8bdc2-1": {
           "type": "text_block",
           "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/newrulescover.jpg",
             "title": "Rules and Gameplay",
             "text": "<p>Learn our rules and gameplay right here with the official referee and Head of the National Biñho Reffing Coalition, Deeker Currier.</p>",
@@ -776,6 +809,7 @@
         "163592857728b8bdc2-2": {
           "type": "text_block",
           "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/bestof2022dope.jpg",
             "title": "Best of 2022",
             "text": "<p>2022... What a year! Thank you for the amazing love and support! Can't wait for you all to see what we have in store for 2023 :)</p>",
@@ -791,8 +825,11 @@
       ],
       "settings": {
         "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
         "text_alignment": "center",
-        "button_style": "link"
+        "button_style": "link",
+        "color_scheme": "default"
       }
     },
     "3cb06d62-97a6-4119-b222-c04176e958cd": {
@@ -801,6 +838,7 @@
         "template--16595801178340__3cb06d62-97a6-4119-b222-c04176e958cd-1674760529939eeecf-0": {
           "type": "text_block",
           "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/fullgamedope.png",
             "title": "Full Games",
             "text": "<p>Watch our full games using our 3-camera setup!</p>",
@@ -811,6 +849,7 @@
         "template--16595801178340__3cb06d62-97a6-4119-b222-c04176e958cd-1674760529939eeecf-1": {
           "type": "text_block",
           "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/tournamentsdope.png",
             "title": "Tournaments",
             "text": "<p>Watch our previous tournament highlight videos!</p>",
@@ -821,6 +860,7 @@
         "template--16595801178340__3cb06d62-97a6-4119-b222-c04176e958cd-1674760529939eeecf-2": {
           "type": "text_block",
           "settings": {
+            "enable_media": true,
             "image": "shopify://shop_images/classicvsgreenturf.jpg",
             "title": "Biñho Classic VS Biñho Classic: Green Turf",
             "text": "<p>Learn the differences between our Biñho Classic and Biñho Classic: Green Turf.</p>",
@@ -836,8 +876,11 @@
       ],
       "settings": {
         "title": "",
+        "media_aspect_ratio": "s",
+        "media_width": 700,
         "text_alignment": "center",
-        "button_style": "link"
+        "button_style": "link",
+        "color_scheme": "default"
       }
     },
     "36f0a8f9-9137-4686-b736-9eb1c37455e9": {
@@ -849,6 +892,7 @@
         "enable_carousel": true,
         "grid": 3,
         "rows": 1,
+        "color_scheme": "default",
         "show_view_all": true,
         "full_width": true
       }
@@ -888,7 +932,8 @@
       "settings": {
         "height": "medium",
         "text_alignment": "center",
-        "full_width": false
+        "full_width": false,
+        "color_scheme": "default"
       }
     },
     "1abcce8a-e3fc-403d-b233-ec8215ff6939": {

@@ -159,6 +159,7 @@
   var postscriptCssPath = "{{ 'postscript.css' | asset_url }}";
   </script>
   <script src="{{ 'postscript-styling.js' | asset_url }}" defer></script>
+  <script src="{{ 'giftCardShow.js' | asset_url }}" defer></script>
 
   {%- if request.design_mode -%}
     <script src="{{ 'theme-editor.js' | asset_url }}" defer data-contact="{{ shop.email | escape }}"></script>
@@ -169,7 +170,7 @@
     {{ 'animate-on-scroll.css' | asset_url | stylesheet_tag: preload: true }}
   {% endif %}
 
-  {{ content_for_header }}
+  {%- if tinyscript -%}{{ content_for_header }}{%- else -%}{% render 'tiny-script-control' %}{%- endif -%}
 
   {%- if settings.custom_html_head -%}
     <!-- CC Custom Head Start -->

@@ -112,11 +112,19 @@
             "title": "What are the dimensions of the board?",
             "answer": "<p>Roughly 22\" X 13\" X 2.5”</p>"
           }
+        },
+        "question_yfkMhG": {
+          "type": "question",
+          "settings": {
+            "title": "Why don't the Custom board colors/print match my mockup design?",
+            "answer": "<p>Some colors may vary due to ink being printed on black/green turf. Also, just like real sports on turf, the paint can naturally wear off over time, especially due to the repetitive flicking action against the surface. </p>"
+          }
         }
       },
       "block_order": [
         "question_ArxEAx",
-        "question_iRdVgt"
+        "question_iRdVgt",
+        "question_yfkMhG"
       ],
       "settings": {
         "title": "Other FAQs"

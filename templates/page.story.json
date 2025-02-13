@@ -22,8 +22,7 @@
       "blocks": {
         "template--15213462618185__cdffcd03-a94b-4d6e-a504-1fe0b70347d6-subheading-1": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15213462618185__cdffcd03-a94b-4d6e-a504-1fe0b70347d6-heading-1": {
           "type": "heading",
@@ -53,8 +52,7 @@
       "blocks": {
         "941bc462-0551-4914-bb50-fb1d366d7cf6": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15213462618185__ffca7f3f-a70e-4737-9485-80d1f269e72b-heading-1": {
           "type": "heading",
@@ -86,8 +84,7 @@
       "blocks": {
         "aa8f8936-073f-42af-b9ae-2458a23ee7b9": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15213462618185__e349fe82-4ed8-48b7-b15a-84eb3a247d25-heading-1": {
           "type": "heading",
@@ -127,8 +124,7 @@
       "blocks": {
         "template--15439594029129__f64a5279-be93-4c35-a341-abc6bc461729-subheading-1": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15439594029129__f64a5279-be93-4c35-a341-abc6bc461729-heading-1": {
           "type": "heading",
@@ -157,9 +153,7 @@
         "height": "fixed",
         "height_desktop": 720,
         "height_mobile": 520,
-        "product_list": [
-
-        ],
+        "product_list": [],
         "products_alignment": "bottom right",
         "product_card_layout": "portrait",
         "show_swatches": false,
@@ -263,23 +257,20 @@
       "blocks": {
         "template--15213462618185__d3729242-1117-4e20-b13f-db8d6a88222d-text-1": {
           "type": "text",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "template--15213462618185__d3729242-1117-4e20-b13f-db8d6a88222d-text-1"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "5d80e24d-359e-4497-b5e7-90275162de31": {
       "type": "image-with-text",
       "blocks": {
         "88949fd5-8250-4a34-9a66-e89dc0c91026": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--15213462618185__5d80e24d-359e-4497-b5e7-90275162de31-heading-1": {
           "type": "heading",
@@ -319,8 +310,7 @@
       "blocks": {
         "181ce0ab-cbe9-4acf-a758-267f49d2eccb": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         },
         "cef28f7b-581d-48fa-86e1-47948a6f62e9": {
           "type": "heading",

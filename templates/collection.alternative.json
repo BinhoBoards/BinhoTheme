@@ -34,9 +34,7 @@
         "sort_show_alpha": true,
         "sort_show_price": true,
         "sort_show_date": true,
-        "related_collections": [
-
-        ],
+        "related_collections": [],
         "related_collections_style": "buttons",
         "rel_coll_gall_aspect_ratio": "2",
         "image_position": "center center",
@@ -87,8 +85,7 @@
       "blocks": {
         "template--20584682389527__4357caea-ebf4-4bbf-8a42-7d1b728c0c58-title-1": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--20584682389527__4357caea-ebf4-4bbf-8a42-7d1b728c0c58-price-1": {
           "type": "price",
@@ -99,13 +96,11 @@
         },
         "template--20584682389527__4357caea-ebf4-4bbf-8a42-7d1b728c0c58-vendor-1": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--20584682389527__4357caea-ebf4-4bbf-8a42-7d1b728c0c58-divider-1": {
           "type": "divider",
-          "settings": {
-          }
+          "settings": {}
         },
         "template--20584682389527__4357caea-ebf4-4bbf-8a42-7d1b728c0c58-variant-picker-1": {
           "type": "variant-picker",

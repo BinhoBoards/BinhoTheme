@@ -14,8 +14,7 @@
       "blocks": {
         "subheading_TnRGyL": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         },
         "heading_fYVzid": {
           "type": "heading",
@@ -117,28 +116,24 @@
       "blocks": {
         "text_dBUpAq": {
           "type": "text",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
         "text_dBUpAq"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "main": {
       "type": "main-product",
       "blocks": {
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
@@ -268,8 +263,7 @@
       "blocks": {
         "subheading_DwKKyH": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         },
         "heading_w8PTUK": {
           "type": "heading",
@@ -320,8 +314,7 @@
         },
         "subheading_iGR97U": {
           "type": "subheading",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -409,9 +402,7 @@
       "type": "product-template-product-list",
       "settings": {
         "title": "More from the designer",
-        "product_list": [
-
-        ],
+        "product_list": [],
         "hide_if_empty": true,
         "show_vendor": true,
         "enable_carousel": false,

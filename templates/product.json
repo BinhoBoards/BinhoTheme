@@ -14,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "fa376372-838d-4a96-8673-281224f859f7": {
           "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
@@ -36,8 +35,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "divider": {
           "type": "divider",
@@ -73,6 +71,17 @@
             "show_in_tab": false,
             "open_tab": false,
             "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "richtext_ctU6iw": {
+          "type": "richtext",
+          "settings": {
+            "richtext": "<p>Can’t wait? Snag a <a href=\"https://binhoboard.com/products/binho-gift-card\">Gift Card here</a>!</p>",
+            "icon": "",
+            "icon_size": "small",
+            "enable_box": false,
+            "box_color": "#e0f4d5",
             "show_in_quickbuy": false
           }
         },
@@ -122,12 +131,13 @@
         "variant_picker_Wy4ftQ",
         "buy_buttons_JbKjLz",
         "description",
+        "richtext_ctU6iw",
         "accordion_hkRABY",
         "accordion_Arqf9x",
         "accordion_adLXJ6"
       ],
       "custom_css": [
-
+        ".product-info-block .rte.cf {display: none;}"
       ],
       "settings": {
         "show_breadcrumbs": false,

@@ -14,28 +14,23 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "divider": {
           "type": "divider",
-          "settings": {
-          }
+          "settings": {}
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -45,13 +40,11 @@
         "divider",
         "description"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "related-products": {
       "type": "related-products",
-      "settings": {
-      }
+      "settings": {}
     }
   },
   "order": [

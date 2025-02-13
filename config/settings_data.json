@@ -480,8 +480,7 @@
         "blocks": {
           "1478526632861": {
             "type": "announcement",
-            "settings": {
-            }
+            "settings": {}
           }
         },
         "block_order": [
@@ -572,8 +571,7 @@
           "1478526647261",
           "1478527611164"
         ],
-        "settings": {
-        }
+        "settings": {}
       },
       "footer": {
         "type": "footer",
@@ -617,33 +615,27 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "4571859552318407796": {
         "type": "shopify://apps/g-variant-image-color-swatch/blocks/app-embed-block/4394f710-096c-4021-bbde-8ebb26057c11",
         "disabled": true,
-        "settings": {
-        }
+        "settings": {}
       },
       "1513253815146976218": {
         "type": "shopify://apps/omnisend-email-marketing-sms/blocks/app-embed/44704aa2-794f-4c5d-8c8e-039c841158e9",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6298225925462806087": {
         "type": "shopify://apps/easy-country-blocker/blocks/app-embed/b7d028e1-4369-4ca2-8d8c-e7d90d1ba404",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "6174324309569838175": {
         "type": "shopify://apps/smile-loyalty-rewards/blocks/smile-shopify-app/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "4697538150380142411": {
         "type": "shopify://apps/stamped-product-reviews-ugc/blocks/reviews-popup/a103faaf-2125-4b0e-89fa-de5149736723",
@@ -712,14 +704,12 @@
       "7421546185640437913": {
         "type": "shopify://apps/tixel-tiktok-pixels-installer/blocks/app-embed/b273c4b8-95ba-409d-a87c-c46907e02629",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "11724500921838622758": {
         "type": "shopify://apps/frequently-bought-together/blocks/app-embed-block/b1a8cbea-c844-4842-9529-7c62dbab1b1f",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "15683396631634586217": {
         "type": "shopify://apps/inbox/blocks/chat/841fc607-4181-4ad1-842d-e24d7f8bad6b",
@@ -737,20 +727,17 @@
       "1592368672439559791": {
         "type": "shopify://apps/bixgrow-affiliate-marketing/blocks/toolbar/b4f8e2e0-5ee6-49dd-b333-2e5542feb60a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "pagefly-page-builder": {
         "type": "shopify://apps/pagefly-page-builder/blocks/app-embed/83e179f7-59a0-4589-8c66-c0dddf959200",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "17676059084223943535": {
         "type": "shopify://apps/triplewhale/blocks/triple_pixel_snippet/483d496b-3f1a-4609-aea7-8eee3b6b7a2a",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "124348908681409149": {
         "type": "shopify://apps/simple-bundles-kits/blocks/simple-bundles-v2/e553276b-36b2-446d-b80a-aa47fe5f96ac",
@@ -761,12 +748,65 @@
           "custom_css": "",
           "custom_js": ""
         }
+      },
+      "11104565113590962351": {
+        "type": "shopify://apps/tinyseo-seo-speed/blocks/article-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {}
+      },
+      "15154131639906026026": {
+        "type": "shopify://apps/tinyseo-seo-speed/blocks/broken-link-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {}
+      },
+      "2353461558643755616": {
+        "type": "shopify://apps/tinyseo-seo-speed/blocks/breadcrumbs-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {}
+      },
+      "1369284949797581044": {
+        "type": "shopify://apps/tinyseo-seo-speed/blocks/collection-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {}
+      },
+      "14971748854670876780": {
+        "type": "shopify://apps/tinyseo-seo-speed/blocks/product-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {}
+      },
+      "1360768219604461044": {
+        "type": "shopify://apps/tinyseo-seo-speed/blocks/store-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {}
+      },
+      "11089864892113081655": {
+        "type": "shopify://apps/tinyseo-seo-speed/blocks/website-json-ld-embed/0605268f-f7c4-4e95-b560-e43df7d59ae4",
+        "disabled": false,
+        "settings": {}
+      },
+      "2699851813924348007": {
+        "type": "shopify://apps/navidium-shipping-protection/blocks/navidium-protection-consent/0127ebe0-a248-4215-97ad-f7db763bd6c8",
+        "disabled": false,
+        "settings": {
+          "show_landing_popup": false,
+          "show_reminder_popup": false,
+          "enablejQuery": true,
+          "product_handle": "navidium-shipping-protection",
+          "checkout_section": "navidium",
+          "subtotal_element": "navidium",
+          "click_triggers": "#cart-icon-bubble",
+          "store_checkout_button": "#checkout-button",
+          "custom_css": ""
+        }
       }
     }
   },
   "platform_customizations": {
     "custom_css": [
-      "#ps-bis-widget__button.ps-bis-button {border: 0px #fff !important; background: #f7b613 !important; background-color: #f7b613 !imrpotant; padding: 20px !important;}"
+      "#ps-bis-widget__button.ps-bis-button {border: 0px #fff !important; background: #f7b613 !important; background-color: #f7b613 !imrpotant; padding: 20px !important;}",
+      "#nvd-without-checkout-btn {background-color: #000000 !important; color: #ffffff !important; border-radius: 4px !important; padding: 12px !important; font-size: 14px !important; border: none !important; cursor: pointer !important; text-decoration: underline !important;}",
+      "#nvd-standard-widget-container {max-width: none !important; margin-top: 10px !important;}",
+      "#nvd-with-checkout-btn {background: #f7b613 !important; color: #000000 !important;}"
     ]
   }
 }

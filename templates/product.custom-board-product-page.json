@@ -14,8 +14,7 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "fa376372-838d-4a96-8673-281224f859f7": {
           "type": "shopify://apps/stamped-reviews/blocks/star-rating-badge/a103faaf-2125-4b0e-89fa-de5149736723",
@@ -45,8 +44,7 @@
         "vendor": {
           "type": "vendor",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "divider": {
           "type": "divider",
@@ -69,7 +67,7 @@
         "custom_liquid_37MkUR": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": "<style>\ninput[name=\"properties[Line Color]\"], input[name=\"properties[Custom Turf Color]\"] {\n\twidth: 40px;\n}\n.progress-wrapper {\n    width:200px;\n\tborder:1px solid #e2e2e2;\n    border-radius: 2px;\n\tpadding: 2px;\n}\n.progress-wrapper .progress {\n    background-color:#f7b613;\n    width:0%;\n    padding:2px 5px 2px 5px\n\tcolor: #000;\n\toverflow: hidden;\n}\n</style>\n\n<div class=\"pd-form__input\">\n\t<label class=\"pd-form__label\">Logo Image</label>\n\n\t<input id=\"file-upload\" type=\"file\" form=\"{{ 'product-form-' | append: section.id }}\" name=\"properties[File Upload]\" accept=\"image/png, image/jpeg\" required>\n\n\t<div class=\"progress-wrapper\" id=\"logo-progress\" style=\"display:none;\">\n        <div id=\"progress-bar-file\" class=\"progress\"></div>\n    </div>\n</div>\n\n<div class=\"pd-form__input\" id=\"logo-scale\" style=\"display:none;\">\n\t<label class=\"pd-form__label\">Logo Size</label>\n\n\t<input type=\"range\" min=\"0.5\" max=\"1.5\" value=\"1\" step=\"0.01\" id=\"scaleSlider\">\n</div>\n\n{% assign product_handles = \"binho-bands,binho-player-pieces,binho-goals-1\" | split: ',' %}\n{% for handle in product_handles %}\n  {% assign product = all_products[handle] %}\n  {% if product %}\n    <div class=\"product-metafields\" data-title=\"{{ product.title }}\" data-product-id=\"{{ product.id }}\" style=\"display:none\">\n      {% for variant in product.variants %}\n        <div class=\"variant-metafields\" data-variant-id=\"{{ variant.id }}\" data-title=\"{{ variant.title }}\" data-hexcolor=\"{{ variant.metafields.custom.hexcolor }}\" data-meta=\"{{ variant.metafields.custom.model_meta }}\" data-inventory=\"{{ variant.inventory_quantity }}\" data-available=\"{{ variant.available }}\" >\n        </div>\n      {% endfor %}\n    </div>\n  {% endif %}\n{% endfor %}\n<script src=\"https://binhoboard.com/apps/binho/assets/js/app.js?v1\" type=\"text/javascript\"></script>",
+            "custom_liquid": "<style>\ninput[name=\"properties[Line Color]\"], input[name=\"properties[Custom Turf Color]\"] {\n\twidth: 40px;\n}\n.progress-wrapper {\n    width:200px;\n\tborder:1px solid #e2e2e2;\n    border-radius: 2px;\n\tpadding: 2px;\n}\n.progress-wrapper .progress {\n    background-color:#f7b613;\n    width:0%;\n    padding:2px 5px 2px 5px\n\tcolor: #000;\n\toverflow: hidden;\n}\n</style>\n\n<div class=\"pd-form__input\">\n\t<label class=\"pd-form__label\">Logo Image</label>\n\n\t<input id=\"file-upload\" type=\"file\" form=\"{{ 'product-form-' | append: section.id }}\" name=\"properties[File Upload]\" accept=\"image/png, image/jpeg\" required>\n\n\t<div class=\"progress-wrapper\" id=\"logo-progress\" style=\"display:none;\">\n        <div id=\"progress-bar-file\" class=\"progress\"></div>\n    </div>\n</div>\n\n<div class=\"pd-form__input\" id=\"logo-scale\" style=\"display:none;\">\n\t<label class=\"pd-form__label\">Logo Size</label>\n\n\t<input type=\"range\" min=\"0.5\" max=\"1.5\" value=\"1\" step=\"0.01\" id=\"scaleSlider\">\n</div>\n\n{% assign product_handles = \"binho-bands,binho-player-pieces,binho-goals-1\" | split: ',' %}\n{% for handle in product_handles %}\n  {% assign product = all_products[handle] %}\n  {% if product %}\n    <div class=\"product-metafields\" data-title=\"{{ product.title }}\" data-product-id=\"{{ product.id }}\" style=\"display:none\">\n      {% for variant in product.variants %}\n        <div class=\"variant-metafields\" data-variant-id=\"{{ variant.id }}\" data-title=\"{{ variant.title }}\" data-hexcolor=\"{{ variant.metafields.custom.hexcolor }}\" data-meta=\"{{ variant.metafields.custom.model_meta }}\" data-inventory=\"{{ variant.inventory_quantity }}\" data-available=\"{{ variant.available }}\" >\n        </div>\n      {% endfor %}\n    </div>\n  {% endif %}\n{% endfor %}\n<script src=\"https://binhoboard.com/apps/binho/assets/js/app.js?v=4.1.0\" type=\"text/javascript\"></script>",
             "show_in_quickbuy": false
           }
         },
@@ -119,7 +117,7 @@
             "checkbox_checked_value": "Yes",
             "checkbox_unchecked_value": "No",
             "multiple_style": "dropdown",
-            "multiple_options": "Green\nBlack\nGreen Stripes\nStadium Stripes\nCircle Stripes\nCustom"
+            "multiple_options": "Green\nBlack\nStadium Stripes\nGreen Stripes\nCircle Stripes\nCustom"
           }
         },
         "custom_option_z7MmRg": {
